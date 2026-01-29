@@ -97,23 +97,48 @@
 // console.log(arr)
 
 
-console.log("Array iteration method :-")
-let number =[1,2,3,4,5]
+// console.log("Array iteration method :-")
+// let number =[1,2,3,4,5]
 
-console.log("map() :-", number.map(num => num*2))
-console.log("after map old array:-",number)
+// console.log("map() :-", number.map(num => num*2))
+// console.log("after map old array:-",number)
 
-console.log("filter():-",number.filter(num =>num >2))
-console.log("After filter old array :-",number)
+// console.log("filter():-",number.filter(num =>num >2))
+// console.log("After filter old array :-",number)
 
-console.log("ForEach():-")
-number.forEach(num => console.log(num))
+// console.log("ForEach():-")
+// number.forEach(num => console.log(num))
 
-let num =[3,2,5,4,1]
-console.log("Sort():-",num.sort())
-console.log("Reverse():-",num.reverse())
+// let num =[3,2,5,4,1]
+// console.log("Sort():-",num.sort())
+// console.log("Reverse():-",num.reverse())
 
-let nestedArray = [1,2,[3,4],[5,6]]
-console.log("Default nested array :-", nestedArray)
-let flatArray= nestedArray.flat()
-console.log("flatArray :-",flatArray)
+// let nestedArray = [1,2,[3,4],[5,6]]
+// console.log("Default nested array :-", nestedArray)
+// let flatArray= nestedArray.flat()
+// console.log("flatArray :-",flatArray)
+
+//Array Destructuring 
+
+// let array = [1,2,3,4,5]
+// const [first,second,third]= array
+// console.log(first)
+// console.log(second)
+// console.log(third)
+
+
+//skipping Values 
+
+
+// let array1 = [1,2,3,4]
+// const [first, ,third] = array1
+// console.log(first)
+// console.log(third)
+
+//rest operator//spread
+
+const num1 =[1,2,3,4,5]
+const [firt,second,...rest] =num1 
+console.log(firt)
+console.log(second)
+console.log(rest)
